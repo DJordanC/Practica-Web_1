@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/icono.jpg">
+  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title> Pacientes </title>
+  </head>
+
+<body style="background: url(img/medicina1.jpg); background-size: cover;" >
+    <div class="container p-5" style="background: white; opacity: 80%; margin-top: 50px;">
+     <h5 class="text-dark">
+
+    <section class="container text-primary ">
+        <h4 class="text-uppercase text-center py-5">Registro de Paciente</h4>
+
+        <form action="" method=""class="bg-light">
+
+            <div class="form-group">
+                <label for="">Cédula:</label>
+                <input type="number" name="cedula" placeholder="Ingrese numero de Cedula, ejemplo: 12345678. Solo número" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Nombre:</label>
+                <input type="text" name="nombre" placeholder="Ingresa el nombre de paciente, ejemplo: Pedro" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Apellido:</label>
+                <input type="text" name="apellido" placeholder="Ingresa el apellido de paciente, ejemplo: Mendoza" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Edad:</label>
+                <input type="text" name="edad" placeholder="Ingresa la edad del paciente, ejemplo: 10 años" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+                <label for="">Sintomas que Presenta</label><br>
+                      <input type="radio" name="fiebre"  required >Fiebre mayor a 37.5 ºC<br>
+                      <input type="radio" name="respiracion"  required>Dificultad para respirar<br>
+                      <input type="radio" name="tos"  required>Tos seca<br>
+                      <input type="radio" name="nasal"  required>Congestion nasal (moco)<br>
+                      <input type="radio" name="garganta"  required>Dolor de garganta<br>
+                      <input type="radio" name="diarrea"  required>Diarrea<br>
+                      <input type="radio" name="cabeza"  required>Dolor de cabeza
+            </div>
+
+                            <div class="form-group">
+                    <button class="btn btn-primary">INCLUIR</button>
+                </div>
+        </form>
+
+    </section>
+</h5>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.slim.min.js" ></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
